@@ -1,24 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace OrderProcessingSystem.Models
+﻿namespace OrderProcessingSystem.Models
 {
     public class ClothingProduct : Product
     {
-        public ClothingProduct(string id,
-                               string name,
-                               double price,
-                               int stockQuantity)
+        public ClothingProduct(string id, string name, decimal price, int stockQuantity)
             : base(id, name, price, stockQuantity)
         {
         }
 
-        public override double CalculateDiscount()
+        public override decimal CalculateDiscount()
         {
-            return Price * 0.05;
+            return Price * 0.05m;
         }
     }
 }

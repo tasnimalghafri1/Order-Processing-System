@@ -1,50 +1,25 @@
-﻿using System.Collections.Generic;
-
-namespace OrderProcessingSystem.Models
+﻿public class Customer
 {
-    public class Customer
+    public string Id { get; set; }
+    public string Name { get; set; }
+    public string Email { get; set; }
+
+    public Customer()
     {
-        // Private Fields
-        private string id;
-        private string name;
-        private string email;
+        Id = string.Empty;
+        Name = string.Empty;
+        Email = string.Empty;
+    }
 
-        // Properties
-        public string Id
-        {
-            get { return id; }
-            set { id = value; }
-        }
+    public Customer(string id, string name, string email)
+    {
+        Id = id;
+        Name = name;
+        Email = email;
+    }
 
-        public string Name
-        {
-            get { return name; }
-            set { name = value; }
-        }
-
-        public string Email
-        {
-            get { return email; }
-            set { email = value; }
-        }
-
-        // Orders List
-        public List<Order> Orders { get; set; }
-
-        // Constructor
-        public Customer(string id, string name, string email)
-        {
-            Id = id;
-            Name = name;
-            Email = email;
-
-            Orders = new List<Order>();
-        }
-
-        // Override ToString
-        public override string ToString()
-        {
-            return Name;
-        }
+    public override string ToString()
+    {
+        return Name; // عشان يظهر الاسم في ComboBox
     }
 }

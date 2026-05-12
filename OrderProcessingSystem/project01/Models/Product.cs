@@ -1,56 +1,20 @@
 ﻿namespace OrderProcessingSystem.Models
 {
-    public class Product
+    public abstract class Product
     {
-        // Private Fields
-        private string id;
-        private string name;
-        private double price;
-        private int stockQuantity;
+        public string Id { get; private set; }
+        public string Name { get; private set; }
+        public decimal Price { get; set; }
+        public int StockQuantity { get; set; }
 
-        // Properties
-        public string Id
-        {
-            get { return id; }
-            set { id = value; }
-        }
-
-        public string Name
-        {
-            get { return name; }
-            set { name = value; }
-        }
-
-        public double Price
-        {
-            get { return price; }
-            set { price = value; }
-        }
-
-        public int StockQuantity
-        {
-            get { return stockQuantity; }
-            set { stockQuantity = value; }
-        }
-
-        // Constructor
-        public Product(string id, string name, double price, int stockQuantity)
+        protected Product(string id, string name, decimal price, int stock)
         {
             Id = id;
             Name = name;
             Price = price;
-            StockQuantity = stockQuantity;
+            StockQuantity = stock;
         }
 
-        // Virtual Method (Polymorphism)
-        public virtual double CalculateDiscount()
-        {
-            return 0;
-        }
-
-        public override string ToString()
-        {
-            return $"{Name} - ${Price}";
-        }
+        public abstract decimal CalculateDiscount();
     }
 }

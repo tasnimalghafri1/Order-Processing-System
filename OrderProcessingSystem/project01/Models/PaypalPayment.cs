@@ -4,11 +4,9 @@ namespace OrderProcessingSystem.Models
 {
     public class PaypalPayment : Payment
     {
-        public override void Pay(double amount)
+        public override void Pay(decimal amount)
         {
-            MessageBox.Show(
-                $"PayPal Payment Completed: ${amount}"
-            );
+            MessageBox.Show($"PayPal Payment Completed: {amount:C}");
         }
     }
 }

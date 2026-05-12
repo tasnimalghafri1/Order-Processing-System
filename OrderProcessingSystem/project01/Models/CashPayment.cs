@@ -1,14 +1,13 @@
-﻿using System.Windows.Forms;
+﻿using OrderProcessingSystem.Interfaces;
+using System.Windows.Forms;
 
 namespace OrderProcessingSystem.Models
 {
-    public class CashPayment : Payment
+    public class CashPayment : IPayable
     {
-        public override void Pay(double amount)
+        public void Pay(decimal amount)
         {
-            MessageBox.Show(
-                $"Cash Payment Completed: ${amount}"
-            );
+            MessageBox.Show($"Cash payment completed successfully.\nAmount: {amount:C}");
         }
     }
 }
