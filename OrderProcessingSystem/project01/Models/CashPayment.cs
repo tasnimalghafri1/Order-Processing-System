@@ -7,7 +7,7 @@ namespace OrderProcessingSystem.Models
     {
         public void Pay(decimal amount)
         {
-            MessageBox.Show($"Cash payment completed successfully.\nAmount: {amount:C}");
+            MessageBox.Show($"Cash Payment completed successfully.\nAmount: {amount:C}");
         }
     }
 }

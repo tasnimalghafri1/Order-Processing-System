@@ -127,8 +127,7 @@
               "RelativeToolTip": "project01\\Models\\Order.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-11T11:29:59.482Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-11T11:29:59.482Z"
             },
             {
               "$type": "Document",
@@ -140,8 +139,7 @@
               "RelativeToolTip": "project01\\Models\\OrderStatus.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-11T11:29:45.453Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-11T11:29:45.453Z"
             },
             {
               "$type": "Document",
@@ -153,8 +151,7 @@
               "RelativeToolTip": "project01\\Models\\PaypalPayment.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-11T12:12:43.03Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-11T12:12:43.03Z"
             },
             {
               "$type": "Document",
@@ -166,8 +163,7 @@
               "RelativeToolTip": "project01\\Models\\Product.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-11T11:28:26.11Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-11T11:28:26.11Z"
             },
             {
               "$type": "Document",
@@ -179,8 +175,7 @@
               "RelativeToolTip": "project01\\Models\\ClothingProduct.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-11T11:58:42.589Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-11T11:58:42.589Z"
             },
             {
               "$type": "Document",
@@ -192,8 +187,7 @@
               "RelativeToolTip": "project01\\Models\\CreditCardPayment.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-11T12:05:14.779Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-11T12:05:14.779Z"
             },
             {
               "$type": "Document",
@@ -205,8 +199,7 @@
               "RelativeToolTip": "project01\\Models\\Customer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-11T11:27:55.274Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-11T11:27:55.274Z"
             },
             {
               "$type": "Document",
@@ -218,8 +211,7 @@
               "RelativeToolTip": "project01\\Interfaces\\IPayable.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-11T11:57:42.02Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-11T11:57:42.02Z"
             },
             {
               "$type": "Document",
@@ -231,8 +223,7 @@
               "RelativeToolTip": "project01\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-11T11:46:03.433Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-11T11:46:03.433Z"
             },
             {
               "$type": "Document",
@@ -283,8 +274,7 @@
               "RelativeToolTip": "project01\\CustomerForm.Designer.cs",
               "ViewState": "AgIAACEAAAAAAAAAAAAowBcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-11T12:13:50.131Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-11T12:13:50.131Z"
             },
             {
               "$type": "Document",
@@ -296,8 +286,7 @@
               "RelativeToolTip": "project01\\MainForm.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAFkAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-11T11:05:07.869Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-11T11:05:07.869Z"
             },
             {
               "$type": "Document",
